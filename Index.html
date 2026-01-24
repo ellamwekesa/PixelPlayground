@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PixelPlayground.</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<header>
+        <h1>Welcome to PixelPlayground.</h1>
+        <nav>
+            <ul>
+                <li><a href="pages/gallery.html">Gallery</a></li>
+                <li><a href="pages/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="Diggs">
+            <h2>Work Features.</h2>
+            <p>Explore our collection of stunning photographs where we captured worlds most natural and eye catching terrain.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYyz4VK2uri83nfWzjzpUVJ4T1n_r7NxMRWg&s" alt="The beautiful savannah">
+        </section>
+        <section class="Donna">
+            <div id="MainSection">
+                <div id="SectionA">
+                    <p>A photography portfolio featuring selected works that focus on composition, light, and authenticity.Designed to let the images speak for themselves.</p>
+                    <img src="data:image/jpeg;base64,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"alt="The Mountains.">
+        </section>
+                </div>
+                <div id="SectionB">
+                    <h3>About.</h3>
+                    <p> This website is a curated photography gallery showcasing moments captured through quality lens.<br>
+                    Each image reflects a focus on light, composition, and storytelling, highlighting both everyday scenes and unique perspectives.</p>
+                </div>
+                <div>
+                    <h3>Contacts.</h3>
+                    <p>
+                        <ol>
+                            <li>Phone <strong>0757107383</strong></li>
+                            <li>Email <strong>ellamwekesa16@gmail.com</strong></li>
+                            <li>Instagram <strong><a href="https://www.instagram.com/lilbludd_66/#">Instagram Profile.</a></strong></li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 PixelPlayground. All rights reserved.</p>
+    </footer>
 </body>
 </html>
